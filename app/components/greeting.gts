@@ -16,3 +16,9 @@ export default class Greeting extends Component<GreetingSignature> {
     {{@message}}, {{this.target}}!
   </template>
 }
+
+declare module '@glint/environment-ember-loose/registry' {
+  export default interface Registry {
+    Greeting: typeof Greeting;
+  }
+}

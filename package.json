@@ -21,7 +21,7 @@
     "start": "ember serve",
     "test": "npm-run-all lint test:*",
     "test:ember": "ember test",
-    "test:typecheck": "tsc"
+    "test:typecheck": "glint"
   },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
