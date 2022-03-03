@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "allowJs": true,
+    "noUncheckedIndexedAccess": true,
+    "baseUrl": ".",
+    "paths": {
+      "eti-app/*": ["app/*"],
+      "eti-app/tests/*": ["tests/*"]
+    }
+  },
+  "include": ["app/**/*", "tests/**/*", "types/**/*"]
+}
