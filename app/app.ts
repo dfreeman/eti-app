@@ -1,5 +1,6 @@
 import '@glint/environment-ember-loose';
 import 'glint-environment-ember-template-imports';
+import './patches/route-templates';
 
 import Application from '@ember/application';
 import Resolver from 'ember-resolver';
